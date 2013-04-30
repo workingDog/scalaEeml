@@ -33,7 +33,7 @@ The overall principle was to have a clean set of scala case classes and a separa
 
 # Dependencies
 
-No dependencies yet, but once I introduce JSON IO as well, it will include some dependencies.
+No dependencies yet, but once I introduce JSON as well, it will include some dependencies.
 
 # Notes
 
@@ -48,5 +48,5 @@ Similarly use *EemlReader.getFromString(eemlString)* to get the object represent
 
 # Status
 
-Under construction. scalaEeml has not been tested yet.
+Under construction, scalaEeml has not been tested yet.
 

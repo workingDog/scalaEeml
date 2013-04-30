@@ -14,7 +14,7 @@
     <ignored path="eemlxml.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/eeml.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211081547" ignored="false" />
-    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367300505023" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367300758714" ignored="false" />
     <file path="/0.5.1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367210026321" ignored="false" />
     <file path="/EemlReader.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298382426" ignored="false" />
     <file path="/fragment.java" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211782376" ignored="false" />
@@ -159,7 +159,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.05648267">
+            <state line="32" column="4" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.26572528">
               <folding />
             </state>
           </provider>
@@ -554,7 +554,11 @@
       <created>1367300515299</created>
       <updated>1367300515299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1367300764438</created>
+      <updated>1367300764438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -752,7 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.05648267">
+        <state line="32" column="4" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.26572528">
           <folding />
         </state>
       </provider>
