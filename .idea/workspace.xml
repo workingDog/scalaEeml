@@ -7,36 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/0.5.1.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlReader.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlWriter.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/Example1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/Example2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eemlxml.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/eemlxml_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xml-files/test1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eemlxml.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/eeml.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211081547" ignored="false" />
-    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367300474834" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367300505023" ignored="false" />
     <file path="/0.5.1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367210026321" ignored="false" />
     <file path="/EemlReader.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298382426" ignored="false" />
     <file path="/fragment.java" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211782376" ignored="false" />
@@ -181,7 +159,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="658" selection-end="658" vertical-scroll-proportion="0.3106547">
+            <state line="2" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.05648267">
               <folding />
             </state>
           </provider>
@@ -230,8 +208,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="29" />
+    <option name="x" value="251" />
+    <option name="y" value="22" />
     <option name="width" value="1665" />
     <option name="height" value="1144" />
   </component>
@@ -572,11 +550,16 @@
       <created>1367207221804</created>
       <updated>1367207221804</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1367300515299</created>
+      <updated>1367300515299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="29" width="1665" height="1144" extended-state="0" />
-    <editor active="false" />
+    <frame x="251" y="22" width="1665" height="1144" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,7 +570,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19921875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19921875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -769,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="658" selection-end="658" vertical-scroll-proportion="0.3106547">
+        <state line="2" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.05648267">
           <folding />
         </state>
       </provider>
