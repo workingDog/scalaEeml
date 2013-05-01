@@ -1,7 +1,7 @@
 # scalaEeml Overview
 
-scalaEeml is a Scala [EEML](http://www.eeml.org) library, to interact
-for example, with [COSM](https://cosm.com/) for the Internet Of Things.
+scalaEeml is a Scala [EEML](http://www.eeml.org) library.
+It can be used for example to interact with [COSM](https://cosm.com/) of the Internet Of Things.
 
 From [EEML](http://www.eeml.org): "Extended Environments Markup Language (EEML)
  ...is a protocol for sharing sensor data between remote responsive environments,

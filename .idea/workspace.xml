@@ -7,20 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala" afterPath="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/Example1.scala" afterPath="$PROJECT_DIR$/src/example/Example1.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eemlxml.iml" afterPath="$PROJECT_DIR$/eemlxml.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eemlxml.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/eeml.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211081547" ignored="false" />
-    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367378220824" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367388644773" ignored="false" />
     <file path="/0.5.1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367210026321" ignored="false" />
     <file path="/EemlReader.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298382426" ignored="false" />
     <file path="/fragment.java" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367902596" ignored="false" />
@@ -31,7 +25,7 @@
     <file path="/Test1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367286806046" ignored="false" />
     <file path="/EemlWriter.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367297184444" ignored="false" />
     <file path="/Test2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367296083812" ignored="false" />
-    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367387116198" ignored="false" />
+    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367388833602" ignored="false" />
     <file path="/a.dummy" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367378469996" ignored="false" />
     <file path="/Example2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298583665" ignored="false" />
     <file path="/Example1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367839308" ignored="false" />
@@ -117,19 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
+            <state line="3" column="72" selection-start="152" selection-end="152" vertical-scroll-proportion="0.08707124">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EemlFromXml.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EemlFromXml.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="9" selection-start="5370" selection-end="5370" vertical-scroll-proportion="0.59366757">
+            <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#30#1567#0" expanded="false" />
               </folding>
@@ -191,11 +185,11 @@
         <option value="$PROJECT_DIR$/src/example/Example2.scala" />
         <option value="$PROJECT_DIR$/src/example/Example1.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/JsonParser.scala" />
         <option value="$PROJECT_DIR$/src/example/Example3.scala" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -624,7 +618,11 @@
       <created>1367301465948</created>
       <updated>1367301465948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1367388661708</created>
+      <updated>1367388661708</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -640,7 +638,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/JsonParser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
@@ -832,10 +823,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="9" selection-start="5370" selection-end="5370" vertical-scroll-proportion="0.59366757">
+        <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#30#1567#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="72" selection-start="152" selection-end="152" vertical-scroll-proportion="0.08707124">
+          <folding />
         </state>
       </provider>
     </entry>
