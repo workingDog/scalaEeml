@@ -18,22 +18,22 @@ The overall principle was to have a clean set of scala case classes and a separa
 
 # Example
 
-    // read a xml file into a Eeml root object
-    val eeml = new EemlReader().getEemlFromFile("./xml-files/test1.xml")
+    // read a xml file into a eeml root object
+    val eeml = new EemlReader().getFromFile("./xml-files/test1.xml")
 
-    // get the string representation and print it
+    // get the xml string representation and print it
     val eemlString = EemlWriter.getXmlString(eeml)
     println("eemlString = " + eemlString + "\n")
 
     // convert the eemlString back to a eeml root object
-    val eeml2 = new EemlReader().getEemlFromString(eemlString)
+    val eeml2 = new EemlReader().getFromString(eemlString)
 
-    // write the eeml2 object to a PrintWriter (console)
+    // write the eeml2 object to a PrintWriter
     new EemlWriter(Some(new PrintWriter(System.out))).write(eeml2, new PrettyPrinter(80, 3))
 
 # Dependencies
 
-No dependencies yet, but once I introduce JSON as well, it will include some dependencies.
+No dependencies.
 
 # Notes
 
@@ -47,5 +47,5 @@ Similarly use *EemlReader.getFromString(eemlString)* to get the object represent
 
 # Status
 
-Under construction, scalaEeml has not been tested yet.
+scalaEeml has not been tested yet.
 

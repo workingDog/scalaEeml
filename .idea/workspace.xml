@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="">
+    <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="initial commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,7 +14,7 @@
     <ignored path="eemlxml.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/eeml.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211081547" ignored="false" />
-    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367388644773" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367390088989" ignored="false" />
     <file path="/0.5.1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367210026321" ignored="false" />
     <file path="/EemlReader.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298382426" ignored="false" />
     <file path="/fragment.java" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367902596" ignored="false" />
@@ -25,7 +25,7 @@
     <file path="/Test1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367286806046" ignored="false" />
     <file path="/EemlWriter.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367297184444" ignored="false" />
     <file path="/Test2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367296083812" ignored="false" />
-    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367388833602" ignored="false" />
+    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367390219587" ignored="false" />
     <file path="/a.dummy" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367378469996" ignored="false" />
     <file path="/Example2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298583665" ignored="false" />
     <file path="/Example1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367839308" ignored="false" />
@@ -45,7 +45,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -82,6 +81,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,9 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="102" column="26" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#78#1615#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +112,19 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="72" selection-start="152" selection-end="152" vertical-scroll-proportion="0.08707124">
+            <state line="20" column="31" selection-start="968" selection-end="968" vertical-scroll-proportion="0.16683726">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example1.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="38" selection-start="627" selection-end="640" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#18#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,9 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#30#1567#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,9 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="178" column="55" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#30#1567#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -371,17 +376,17 @@
     <property name="last_opened_file_path" value="$USER_HOME$/akka/akka-latest/lib/akka/uncommons-maths-1.2.2a.jar!/" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="eemlxml" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -487,19 +492,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -525,6 +517,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -622,7 +627,11 @@
       <created>1367388661708</created>
       <updated>1367388661708</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1367388885768</created>
+      <updated>1367388885768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,13 +641,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,6 +654,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1840796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -740,16 +749,12 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spray-json_2.10-1.2.3.jar!/spray/json/JsArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="166" selection-end="166" vertical-scroll-proportion="0.1259542">
-          <folding />
-        </state>
+        <state line="3" column="7" selection-start="166" selection-end="166" vertical-scroll-proportion="0.1259542" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src.zip!/javax/xml/datatype/DatatypeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="704" column="45" selection-start="35962" selection-end="35962" vertical-scroll-proportion="-3.647226">
-          <folding />
-        </state>
+        <state line="704" column="45" selection-start="35962" selection-end="35962" vertical-scroll-proportion="-3.647226" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml-files/test1.xml">
@@ -766,20 +771,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="205" selection-end="205" vertical-scroll-proportion="0.071544714">
-          <folding>
-            <element signature="e#18#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/Example2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="754" selection-end="754" vertical-scroll-proportion="0.6780488">
-          <folding />
-        </state>
+        <state line="27" column="38" selection-start="754" selection-end="754" vertical-scroll-proportion="0.6780488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/JsonParser.scala">
@@ -798,41 +792,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../xsd/target/generated-sources/scalaxb/generated/0.5.1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="22" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-0.2924282">
-          <folding />
-        </state>
+        <state line="110" column="22" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-0.2924282" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="26" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#78#1615#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="55" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#30#1567#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="627" selection-end="640" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#30#1567#0" expanded="false" />
+            <element signature="e#18#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="72" selection-start="152" selection-end="152" vertical-scroll-proportion="0.08707124">
+        <state line="20" column="31" selection-start="968" selection-end="968" vertical-scroll-proportion="0.16683726">
           <folding />
         </state>
       </provider>
