@@ -55,8 +55,8 @@ object EemlFromXml extends EemlExtractor {
   def makeVersion(nodeSeq: NodeSeq): Option[String] =
     if (nodeSeq.isEmpty) None else getFromNode[String](nodeSeq \ "@version")
 
-  def makeEnvironmentSeq(nodeSeq: NodeSeq): Seq[Environment] = {
-    if (nodeSeq.isEmpty) Seq.empty else (nodeSeq collect { case x => makeEnvironment(x \ "environment") } flatten)
+  def makeEnvironmentSeq(nodeSeq: NodeSeq): Option[Seq[Environment]] = {
+    if (nodeSeq.isEmpty) None else Some(nodeSeq collect { case x => makeEnvironment(x \ "environment") } flatten)
   }
 
   def makeEnvironment(nodeSeq: NodeSeq): Option[Environment] = {
@@ -72,9 +72,9 @@ object EemlFromXml extends EemlExtractor {
       icon = getFromNode[String](nodeSeq \ "icon"),
       website = getFromNode[String](nodeSeq \ "website"),
       email = getFromNode[String](nodeSeq \ "email"),
-      tag = makeTagSeq(nodeSeq \ "tag"),
+      tags = makeTagSeq(nodeSeq \ "tag"),
       location = makeLocation(nodeSeq \ "location"),
-      data = makeDataSeq(nodeSeq \ "data")))
+      datastreams = makeDataSeq(nodeSeq \ "data")))
   }
 
   def makeLocation(nodeSeq: NodeSeq): Option[Location] = {
@@ -88,18 +88,18 @@ object EemlFromXml extends EemlExtractor {
       name = getFromNode[String](nodeSeq \ "name")))
   }
 
-  def makeTagSeq(nodeSeq: NodeSeq): Seq[String] = {
-    if (nodeSeq.isEmpty) Seq.empty else (nodeSeq collect { case x => getFromNode[String](x) } flatten)
+  def makeTagSeq(nodeSeq: NodeSeq): Option[Seq[String]] = {
+    if (nodeSeq.isEmpty) None else Some(nodeSeq collect { case x => getFromNode[String](x) } flatten)
   }
 
-  def makeDataSeq(nodeSeq: NodeSeq): Seq[Data] = {
-    if (nodeSeq.isEmpty) Seq.empty else (nodeSeq collect { case x => makeData(x) } flatten)
+  def makeDataSeq(nodeSeq: NodeSeq): Option[Seq[Data]] = {
+    if (nodeSeq.isEmpty) None else Some(nodeSeq collect { case x => makeData(x) } flatten)
   }
 
   def makeData(nodeSeq: NodeSeq): Option[Data] = {
     if (nodeSeq.isEmpty) None else Some(new Data(
       id = getFromNode[BigInt](nodeSeq \ "@id"),
-      tag = makeTagSeq(nodeSeq \ "tag"),
+      tags = makeTagSeq(nodeSeq \ "tag"),
       current_value = makeDataValue(nodeSeq \ "current_value"),
       max_value = getFromNode[String](nodeSeq \ "max_value"),
       min_value = getFromNode[String](nodeSeq \ "min_value"),
@@ -114,12 +114,12 @@ object EemlFromXml extends EemlExtractor {
       value = getFromNode[String](nodeSeq)))
   }
 
-  def makeDatapoints(nodeSeq: NodeSeq): Seq[DataValue] = {
-    if (nodeSeq.isEmpty) Seq.empty else makeDataValueSet(nodeSeq \ "value")
+  def makeDatapoints(nodeSeq: NodeSeq): Option[Seq[DataValue]] = {
+    if (nodeSeq.isEmpty) None else makeDataValueSet(nodeSeq \ "value")
   }
 
-  def makeDataValueSet(nodeSeq: NodeSeq): Seq[DataValue] = {
-    if (nodeSeq.isEmpty) Seq.empty else (nodeSeq collect { case x => makeDataValue(x) } flatten)
+  def makeDataValueSet(nodeSeq: NodeSeq): Option[Seq[DataValue]] = {
+    if (nodeSeq.isEmpty) None else Some(nodeSeq collect { case x => makeDataValue(x) } flatten)
   }
 
   def makeDataValue(nodeSeq: NodeSeq): Option[DataValue] = {

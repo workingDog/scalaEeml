@@ -37,10 +37,9 @@ No dependencies yet, but once I introduce JSON as well, it will include some dep
 
 # Notes
 
-Apart from the Seq[_] fields, such as tag: Seq[String], datapoints: Seq[DataValue], in class Data for example,
-all other fields in the case classes are Option[_]. I find this to give more stability with only a small burden
+All member fields in the case classes are Option[_]. I find this to give more stability with only a small burden
 of having to use Some(_) or Option(_). As a relief from this verbosity, I included an overridden set of constructors
-that have plain arguments for all classes. The use of Option[_] is a departure from the specifications.
+that have plain arguments for all classes. The use of Option[_] is a departure from the EEML specifications.
 
 Since I separated the IO from the classes there is no *eemlObj.toXml* to get the string xml representation
 of the object. Instead use *EemlWriter.getXmlString(eemlObj)*.

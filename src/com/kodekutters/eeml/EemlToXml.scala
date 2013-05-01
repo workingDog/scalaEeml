@@ -110,12 +110,12 @@ object EemlToXml extends XmlExtractor {
       dataOption match {
         case Some(data) =>
           <data id={if (data.id.isDefined) data.id.get.toString else null}>
-            {for (x <- data.tag) yield <tag>{x}</tag>}
+            {if (data.tags.isDefined) for (x <- data.tags.get) yield <tag>{x}</tag>}
             {current_valueToXml(data.current_value)}
             {makeXmlNode("max_value",data.max_value)}
             {makeXmlNode("min_value",data.min_value)}
             {getXmlFrom(data.unit)}
-            {getXmlFrom(Option(data.datapoints))}
+            {getXmlFrom(data.datapoints)}
           </data>
         case None => NodeSeq.Empty
       }
@@ -146,9 +146,9 @@ object EemlToXml extends XmlExtractor {
             {makeXmlNode("icon",env.icon)}
             {makeXmlNode("email",env.email)}
             {makeXmlNode("description",env.description)}
-            {for (x <- env.tag) yield <tag>{x}</tag>}
+            {if (env.tags.isDefined) for (x <- env.tags.get) yield <tag>{x}</tag>}
             {getXmlFrom(env.location)}
-            {getXmlSeqFrom(Option(env.data))}
+            {getXmlSeqFrom(env.datastreams)}
           </environment>
         case None => NodeSeq.Empty
       }
@@ -163,7 +163,9 @@ object EemlToXml extends XmlExtractor {
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   version={if (eeml.version.isDefined) eeml.version.get else null}
                   xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
-              {for (x <- eeml.environments) yield getXmlFrom(Option(x))}
+              {
+              if(eeml.environments.isDefined) for (x <- eeml.environments.get) yield getXmlFrom(Option(x))
+              }
             </eeml>
           case None => NodeSeq.Empty
         }
