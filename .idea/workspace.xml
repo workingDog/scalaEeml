@@ -6,7 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="initial commit">
+    <list default="true" id="e68568ce-45fd-4286-8379-c1f173e83893" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/Example1.scala" afterPath="$PROJECT_DIR$/src/example/Example1.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,7 +15,7 @@
     <ignored path="eemlxml.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/eeml.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367211081547" ignored="false" />
-    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367390088989" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367452141164" ignored="false" />
     <file path="/0.5.1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367210026321" ignored="false" />
     <file path="/EemlReader.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298382426" ignored="false" />
     <file path="/fragment.java" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367902596" ignored="false" />
@@ -25,10 +26,10 @@
     <file path="/Test1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367286806046" ignored="false" />
     <file path="/EemlWriter.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367297184444" ignored="false" />
     <file path="/Test2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367296083812" ignored="false" />
-    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367390219587" ignored="false" />
+    <file path="/readme.md" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367452175499" ignored="false" />
     <file path="/a.dummy" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367378469996" ignored="false" />
     <file path="/Example2.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367298583665" ignored="false" />
-    <file path="/Example1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367367839308" ignored="false" />
+    <file path="/Example1.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367390707501" ignored="false" />
     <file path="/JsonParser.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367385042742" ignored="false" />
     <file path="/Example3.scala" changelist="e68568ce-45fd-4286-8379-c1f173e83893" time="1367385946400" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,6 +46,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,7 +83,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,7 +95,7 @@
       <file leaf-file-name="Eeml.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="26" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0">
+            <state line="64" column="12" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +104,7 @@
       <file leaf-file-name="Example3.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/Example3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="50" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="31" column="72" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +113,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="968" selection-end="968" vertical-scroll-proportion="0.16683726">
+            <state line="2" column="75" selection-start="97" selection-end="97" vertical-scroll-proportion="0.045035824">
               <folding />
             </state>
           </provider>
@@ -121,10 +122,26 @@
       <file leaf-file-name="Example1.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="38" selection-start="627" selection-end="640" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#18#48#0" expanded="true" />
-              </folding>
+            <state line="29" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml-files/test1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="12" selection-start="956" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0.5.1.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.5.1.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="37" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +149,7 @@
       <file leaf-file-name="EemlFromXml.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
+            <state line="35" column="107" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +158,7 @@
       <file leaf-file-name="EemlToXml.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="55" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0">
+            <state line="38" column="43" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,19 +205,19 @@
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlReader.scala" />
         <option value="$PROJECT_DIR$/xml-files/test2.xml" />
         <option value="$PROJECT_DIR$/src/example/Example2.scala" />
-        <option value="$PROJECT_DIR$/src/example/Example1.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala" />
         <option value="$PROJECT_DIR$/src/com/kodekutters/eeml/JsonParser.scala" />
         <option value="$PROJECT_DIR$/src/example/Example3.scala" />
+        <option value="$PROJECT_DIR$/src/example/Example1.scala" />
         <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="37" />
+    <option name="x" value="136" />
+    <option name="y" value="34" />
     <option name="width" value="1728" />
     <option name="height" value="1125" />
   </component>
@@ -230,6 +247,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,108 +276,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml-files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eeml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eeml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EemlToXml.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eemlxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eeml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EemlReader.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,11 +554,15 @@
       <created>1367388885768</created>
       <updated>1367388885768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1367390278922</created>
+      <updated>1367390278922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="37" width="1728" height="1125" extended-state="0" />
+    <frame x="136" y="34" width="1728" height="1125" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,7 +582,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21791045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -728,23 +655,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlWriter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="53" selection-start="4178" selection-end="4194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="114" column="53" selection-start="4178" selection-end="4194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml-files/test2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="89" selection-start="900" selection-end="900" vertical-scroll-proportion="0.4712182">
-          <folding />
-        </state>
+        <state line="16" column="89" selection-start="900" selection-end="900" vertical-scroll-proportion="0.4712182" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlReader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="46" selection-start="3382" selection-end="3382" vertical-scroll-proportion="-0.030261349">
-          <folding />
-        </state>
+        <state line="87" column="46" selection-start="3382" selection-end="3382" vertical-scroll-proportion="-0.030261349" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spray-json_2.10-1.2.3.jar!/spray/json/JsArray.class">
@@ -757,23 +678,56 @@
         <state line="704" column="45" selection-start="35962" selection-end="35962" vertical-scroll-proportion="-3.647226" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/Example2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="38" selection-start="754" selection-end="754" vertical-scroll-proportion="0.6780488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xsd/target/generated-sources/scalaxb/generated/0.5.1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="22" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-0.2924282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="107" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xml-files/test1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="519" selection-end="519" vertical-scroll-proportion="0.13621262">
+        <state line="18" column="12" selection-start="956" selection-end="1023" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0.5.1.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="32" selection-start="4285" selection-end="4292" vertical-scroll-proportion="0.073089704">
+        <state line="33" column="37" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Example2.scala">
+    <entry file="file://$PROJECT_DIR$/src/example/Example3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="754" selection-end="754" vertical-scroll-proportion="0.6780488" />
+        <state line="31" column="72" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/JsonParser.scala">
@@ -783,51 +737,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Example3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xsd/target/generated-sources/scalaxb/generated/0.5.1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="22" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-0.2924282" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/Eeml.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="26" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0">
+        <state line="64" column="12" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlToXml.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="55" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kodekutters/eeml/EemlFromXml.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="8" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Example1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="627" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#18#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="968" selection-end="968" vertical-scroll-proportion="0.16683726">
+        <state line="2" column="75" selection-start="97" selection-end="97" vertical-scroll-proportion="0.045035824">
           <folding />
         </state>
       </provider>
